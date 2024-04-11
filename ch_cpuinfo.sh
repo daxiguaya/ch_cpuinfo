@@ -899,7 +899,7 @@ cpu_cores=`echo ${cpu_cores}"-"${cpu_gen} | sed 's/\\\//g'`
 if [ "$LC_CHK" == "CUSTOMLANG" ]
 then
     cecho g "$MSGECHO26\033[00m\n"
-    cesho g "\033[0;36m${cpu_vendor} ${cpu_family} ${cpu_series} \033[0;31m[\033[0;36m${cpu_cores}\033[0;31m] \033[0;32m$MSGECHO18...\033[00m\n"
+    cecho g "\033[0;36m${cpu_vendor} ${cpu_family} ${cpu_series} \033[0;31m[\033[0;36m${cpu_cores}\033[0;31m] \033[0;32m$MSGECHO18...\033[00m\n"
 elif [ "$LC_CHK" == "Seoul" ]
 then
     cecho g "적용 할 사용 중인 CPU 정보는 아래와 같습니다. 확인 후 진행바랍니다.\033[00m\n"
